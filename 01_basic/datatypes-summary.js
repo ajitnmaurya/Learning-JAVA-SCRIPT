@@ -30,3 +30,27 @@ console.log("Hello world");
 }
 
 console.log(typeof myFunction);
+
+//************************************************************************
+
+// stack (primitive), Heap (Non-primitive)
+
+let myYoutubeName =  "Ajitkumarsingh"
+
+let anothername = myYoutubeName
+anothername = "ajitx"
+
+console.log(anothername);
+console.log(myYoutubeName);
+
+let userOne = {
+    email: "user@gmail.com",
+    upi: "sdkfj@paytm"
+}
+
+let userTwo = userOne;
+
+userTwo.email = "ajit@gmail.com"
+
+console.log(userOne);
+console.log(userTwo);
