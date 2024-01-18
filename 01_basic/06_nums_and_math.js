@@ -28,3 +28,4 @@ const hundreds = 1000000
 console.log(Math.random());
 console.log(Math.random()*10);
 
+console.log(Math.random()*100);
