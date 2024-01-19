@@ -29,3 +29,5 @@ console.log(Math.random());
 console.log(Math.random()*10);
 
 console.log(Math.random()*100);
+
+console.log(Math.random()*1000);
