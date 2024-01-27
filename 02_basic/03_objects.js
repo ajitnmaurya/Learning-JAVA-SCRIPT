@@ -35,7 +35,34 @@ jsUser.greetingTwo = function(){
     console.log(`Hello Js User,${this.name}`);
 }
 
-console.log(jsUser.greeting());
-console.log(jsUser.greetingTwo());
-console.log(jsUser.greetingTwo());
-console.log();
+// console.log(jsUser.greeting());
+// console.log(jsUser.greetingTwo());
+// console.log(jsUser.greetingTwo());
+// console.log();
+
+
+//**********************************object4***********************
+
+
+const course = {
+    coursename: "js",
+    price: "999",
+    courseInstructor: "Ajit"
+}
+
+//course.courseInstructor
+
+const {courseInstructor: instructor} = course
+console.log(instructor);
+
+// const navbar = () => {
+
+// }
+
+// navbar(company = "Ajit")
+
+// {
+//     name: "hitesh",
+//     coursename: "js",
+//     price:"free"
+// }
