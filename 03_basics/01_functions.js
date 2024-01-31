@@ -68,4 +68,4 @@ function returnSecondValue(getArray){
 }
 
 //console.log(returnSecondValue(myNewArray));
-console.log(returnSecondValue([200,400,600,100]));
+console.log(returnSecondValue([200,400,600,100])); 
