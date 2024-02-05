@@ -2,7 +2,7 @@
 
 const coding = ["js", "ruby", "java", "python", "cpp"]
 
-// coding.forEach( function (val){   // here val is parameter
+// coding.forEach( (val) => {   // here val is parameter
 //     console.log(val);
 // }  )
 
@@ -38,6 +38,6 @@ const myCoding = [
     }
 ]
 
-myCoding.forEach( (item) =>{
-    console.log(item.languageName);
-} )
+// myCoding.forEach( (item) =>{
+//     console.log(item.languageName);
+// } )

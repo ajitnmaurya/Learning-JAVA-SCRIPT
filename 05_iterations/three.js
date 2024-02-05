@@ -11,8 +11,7 @@ const arr = [1, 2, 3, 4, 5]
 
 // const greetings = "Hello world"
 // for (const greet of greetings) {
-//     console.log(`each character is ${greet}`);
-    
+//     console.log(`each character is ${greet}`); 
 // }
 
 // const greetings = "Hello world"
@@ -48,6 +47,6 @@ const myObject = {
     game2 : 'GTA'
 }
 
-// for (const [key, value] of myObject) {
-//     console.log(key, ':-', value);
-// }
+for (const [key, value] of myObject) {
+    console.log(key, ':-', value);
+}

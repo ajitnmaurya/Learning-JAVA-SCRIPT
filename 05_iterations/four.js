@@ -6,8 +6,8 @@ const myObject = {
 
 // for (const key in myObject) {
 //     console.log(key);
-//}
-// //To find a keys value
+// }
+//To find a keys value
 // for (const key in myObject) {
 //     console.log(myObject[key]);
 // }
