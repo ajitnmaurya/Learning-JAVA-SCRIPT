@@ -17,9 +17,9 @@
     </ul>
    <script>
      window.onload = function() {
-            var links = document.querySelectorAll('a');
+            let links = document.querySelectorAll('a');
             links.forEach(function(link) {
-                var href = link.getAttribute('href');
+                let href = link.getAttribute('href');
                 // Check if href is a valid URL
                 if (isValidURL(href)) {
                     // Exclude the link "http://internal.com/test"
@@ -32,7 +32,7 @@
   
         function isValidURL(url) {
                 // Regular expression to check if the URL starts with http:// or https://
-                var pattern = /^(http|https):\/\//;
+                let pattern = /^(http|https):\/\//;
                 return pattern.test(url);
             }
         }
